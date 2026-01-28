@@ -8,3 +8,6 @@ var_dump($nama);
 
 //Operasi Array
 var_dump($nama[0]);
+$nama[0] = "Pak Wardhani";
+var_dump($nama);
+unset($nama[1]);
